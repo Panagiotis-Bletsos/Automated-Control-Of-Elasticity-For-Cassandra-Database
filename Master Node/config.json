@@ -1,0 +1,14 @@
+{ 
+	"stats_to_add" : 60 ,
+	"stats_to_remove" : 25,
+	"retry" : 2,
+	"timeout" : 5, // minutes, integer only
+	"seedNode" : "83.212.123.239",
+	"total_available_hosts" : 4,
+	"port_add" : 8089,
+	"port_remove" : 8088,
+	"port_ganglia" : 8651,
+	"nodes_to_add" : 2,
+	"nodes_to_remove" : 2,
+	"min_nodes_online" : 2
+}
