@@ -1,7 +1,7 @@
 # Automated Control Of Elasticity For The NoSQL Dabase Cassandra
 
 ## Abstract
-This project was the result of the work of Nikos Marinos Anninos and Panos Bletsos for the course "Big Data Management" at Ionian University, Department of Informatics. The goal of this project is to resize automaticaly the NoSQL database <b>Cassandra</b> based on user's configurations. We used Okeanos platform to create our VMs and Ganglia monitoring tool to check the load. In our approach only the CPU usage of the cluster is being measured and according to user's policy the app adds or removes, as many nodes as the user has definied, from Cassandra's ring.
+This project was the result of the work of [Nikos M. Anninos](https://github.com/maliaris7) and [Panos Bletsos](https://github.com/Panagiotis-Bletsos) for the course "Big Data Management" at Ionian University, Department of Informatics. The goal of this project is to resize automaticaly the NoSQL database <b>Cassandra</b> based on user's configurations. We used Okeanos platform to create our VMs and Ganglia monitoring tool to check the load. In our approach only the CPU usage of the cluster is being measured and according to user's policy the app adds or removes, as many nodes as the user has definied, from Cassandra's ring.
 
 ## Prerequisites
 To use this app you have to install the following tools first.
